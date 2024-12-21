@@ -1,6 +1,16 @@
-# Example .gitignore
-*.log
-*.tmp
-.env
-node_modules/
+# Ignore virtual environment
+venv/
 
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore database files (optional - you might want to track the initial db structure)
+data/*.db
+data/*.sqlite
+
+# Ignore sensitive information
+.env
+
+# OS generated files
+.DS_Store
